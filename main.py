@@ -11,8 +11,8 @@ if __name__ == '__main__':
     args = {
         'MODEL_NAME': 'RWKV-x060-World-3B-v2-20240228-ctx4096', #模型文件的名字，pth结尾的权重文件。
         'vocab_size': 65536 #词表大小，不要乱改
-        ,'device': "cpu",
-        #,'device': "musa",
+        #,'device': "cpu",
+        ,'device': "musa",
         "onnx_opset": "18",
     }
 
